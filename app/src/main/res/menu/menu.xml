@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Add"
+        android:title="ADD"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Delete"
+        android:title="DELETE"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Update"
+        android:title="UPDATE"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Save"
+        android:title="SAVE"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Exit"
+        android:title="CLOSE"
+        app:showAsAction="never" />
+
+</menu>

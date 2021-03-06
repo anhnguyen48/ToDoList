@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#CDBE70"
+    android:orientation="vertical">
+
+    <TextClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:format12Hour="h:mm:ss aa"
+        android:textColor="#ff0000ff"
+        android:textSize="20sp"
+        android:timeZone="EST" />
+
+    <EditText
+        android:id="@+id/toDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:textSize="22sp"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ffff0000"
+        android:dividerHeight="2sp"
+        android:drawSelectorOnTop="true"/>
+
+</LinearLayout>
